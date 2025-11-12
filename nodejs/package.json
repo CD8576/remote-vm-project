@@ -1,0 +1,13 @@
+{
+  "name": "remote-vm-web-server",
+  "version": "1.0.0",
+  "description": "Serves a webpage with an embedded remote desktop via Guacamole.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "http-proxy-middleware": "^3.0.0"
+  }
+}
